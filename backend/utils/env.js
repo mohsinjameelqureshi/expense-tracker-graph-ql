@@ -12,4 +12,5 @@ dotenv.config({ path: path.join(__dirname, "../.env") });
 export const ENV = {
   MONGODB_URL: process.env.MONGODB_URL,
   PORT: process.env.PORT,
+  SESSION_SECRET: process.env.SESSION_SECRET,
 };
